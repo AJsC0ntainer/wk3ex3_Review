@@ -5,7 +5,6 @@ class Program
     {
         string str;
         int vowels = 0;
-
         Console.Write("Enter a string: ");
         str = (Console.ReadLine().ToLower());
 
@@ -17,11 +16,8 @@ class Program
 
             }
         }
-
         Console.WriteLine($"The Number of vowels in the string is: {vowels}");
-
         Console.Read();
-
     }
 }
 
