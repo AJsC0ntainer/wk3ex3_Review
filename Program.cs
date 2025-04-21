@@ -13,11 +13,9 @@ class Program
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
             {
                 vowels++;
-
             }
         }
         Console.WriteLine($"The Number of vowels in the string is: {vowels}");
         Console.Read();
     }
 }
-
